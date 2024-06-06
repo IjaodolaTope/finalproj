@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- MY ICONS -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="./about.html" >
+    <!-- MY STYLE LINKS -->
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="contact.css">
+
+
+    <title>Contact me </title>
+</head>
+<body>
+    <header>
+        <!-- The site navbar -->
+        <nav>
+            <!-- The navbar logo -->
+            <a href="./index.html" class="logo">Cybersecurity in Africa</a>
+
+            <!-- The navbar links -->
+            <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./about.html">About</a></li>
+                <!-- <li><a href="./Media.html">Media</a></li> -->
+            </ul>
+            <!-- Contact me button -->
+            <a href="./contact.html" class="contact_me">contact me</a>
+
+            <!-- Menu icon -->
+            <span class="material-symbols-outlined menu_icon" id="menuIcon">menu</span>
+        </nav>
+        <section class="hero_section">
+            <h1>Contact Me</h1>
+            <h3>You can fill this simple form to get in contact with me</h3>
+            <!-- <video src="./videos/cybervid2.mp4" type="video/mp4" class="descriptive_video" controls ></video> -->
+
+            <form action="#" id="form">
+                <label for="">
+                    Enter your e-mail
+                    <input type="email" placeholder="example@gmail.com" name="email" id="email" required >
+                </label>
+                <label for="">
+                    Your Message
+                    <textarea name="message" placeholder="Your full Message here" id="message" required ></textarea>
+                </label>
+                <button type="submit">Submit</button>
+            </form>
+
+        </section>
+    </header>
+
+    <!-- <main>
+        <section class="details details2" id="cyberinAfrica">
+            <div class="text_div">
+                <p>Cybersecurity in Africa</p>
+                <h1>Cybersecurity in African Tech</h1>
+                <h3>Based on my research, these are some of the things I learned about the cybersecurity ecosystem in Africa. PS: I did my research mostly around Nigeria, South Africa, and Kenya</h3>
+            </div>
+        </section>
+
+    </main> -->
+
+        <!-- Sidebar structure -->
+        <div id="sidebar" class="sidebar" onclick={openSidebar()} >
+            <div class="sidebar_content">
+                <span class="material-symbols-outlined close_icon" id="closeIcon">close</span>
+                <ul>
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="./about.html">About</a></li>
+                    <li><a href="/contact.html">Contact Me</a></li>
+                </ul>
+            </div>
+        </div>
+
+
+    <!-- The footer -->
+    <footer>
+        <p>&copy; 2024 Peter Gbolahan. All rights reserved.</p>
+        <!-- My socials -->
+        <div class="socials">
+            <a href="">
+                <img src="./images/socialmedia/instagramvector.svg" alt="">
+            </a>
+            <a href="">
+                <img src="./images/socialmedia/twittervector.svg" alt="">
+            </a>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
